@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Harcosok
 {
-    public partial class Form1 : Form
+    public partial class Harcosok : Form
     {
-        public Form1()
+        public Harcosok()
         {
             InitializeComponent();
         }
