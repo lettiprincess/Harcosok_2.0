@@ -76,6 +76,7 @@
             this.letrehozasButton.TabIndex = 3;
             this.letrehozasButton.Text = "Létrehozás";
             this.letrehozasButton.UseVisualStyleBackColor = true;
+            this.letrehozasButton.Click += new System.EventHandler(this.letrehozasButton_Click);
             // 
             // groupBox1
             // 
@@ -225,6 +226,7 @@
             this.torlesButton.TabIndex = 12;
             this.torlesButton.Text = "Törlés";
             this.torlesButton.UseVisualStyleBackColor = true;
+            this.torlesButton.Click += new System.EventHandler(this.torlesButton_Click);
             // 
             // modositButton
             // 
@@ -234,6 +236,7 @@
             this.modositButton.TabIndex = 13;
             this.modositButton.Text = "Módosít";
             this.modositButton.UseVisualStyleBackColor = true;
+            this.modositButton.Click += new System.EventHandler(this.modositButton_Click);
             // 
             // Harcosok
             // 
